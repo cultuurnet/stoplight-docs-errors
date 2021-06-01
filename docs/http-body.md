@@ -20,7 +20,11 @@ For example:
 }
 ```
 
-## jsonPointer
+## Extensions
+
+Aside from the standardized properties above, the RFC7807 spec also allows for custom properties. The following extra properties are commonly used on publiq APIs to provide more information in specific situations.
+
+### jsonPointer
 
 In some cases error responses can include a `jsonPointer` property. This pointer indicates which specific JSON property inside the request body was invalid or caused a problem. It is especially helpful when one specific item inside a list caused an issue, because you can then ask your end user to correct it or leave it out.
 
