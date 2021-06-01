@@ -11,7 +11,3 @@ This space provides info about the technical details on how to handle errors in 
 ## HTTP response format
 
 Error responses from publiq APIs follow the [RFC7807](https://datatracker.ietf.org/doc/html/rfc7807) standard, also known as "Problem Details for HTTP APIs". To learn more, click on one of the "HTTP Response" links in the sidebar.
-
-
-
-
