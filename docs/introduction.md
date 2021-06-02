@@ -7,3 +7,7 @@ While errors can be frustrating, we aim to make them as easy as possible to fix 
 This space provides info about the technical details on how to handle errors in your application, as well as an overview of common errors and how to fix them.
 
 > For errors that are specific to a single API, more info can be found in that API's documentation space.
+
+## HTTP response format
+
+Error responses from publiq APIs follow the [RFC7807](https://datatracker.ietf.org/doc/html/rfc7807) standard, also known as "Problem Details for HTTP APIs". To learn more, click on one of the "HTTP Response" links in the sidebar.
