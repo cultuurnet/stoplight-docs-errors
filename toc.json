@@ -23,6 +23,25 @@
       "type": "item",
       "title": "Body",
       "uri": "docs/http-body.md"
+    },
+    {
+      "type": "divider",
+      "title": "Error types"
+    },
+    {
+      "type": "item",
+      "title": "URL",
+      "uri": "docs/type-url.md"
+    },
+    {
+      "type": "item",
+      "title": "Header",
+      "uri": "docs/type-header.md"
+    },
+    {
+      "type": "item",
+      "title": "Body",
+      "uri": "docs/type-body.md"
     }
   ]
 }
