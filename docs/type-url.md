@@ -12,8 +12,8 @@ This page contains an overview of all possible error types inside the `https://a
 
 The URL you requested is not available. Possible causes include:
 
-- The endpoint does not exist
-- An id or slug of a resource in the path does not exist or is invalid
+-   The endpoint does not exist
+-   An id or slug of a resource in the path does not exist or is invalid
 
 ## method-not-supported
 
