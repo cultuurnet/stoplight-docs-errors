@@ -2,7 +2,7 @@
 
 This page contains an overview of all possible error types inside the `https://api.publiq.be/probs/url/` namespace that can be returned by publiq's APIs.
 
-> APIs can also use their own types for errors. The errors below are used in general situations when an API has no specific type for an error related to a the requested URL.
+> APIs can also use their own types for errors. The types below are used in situations where an API has no more specific type for an error related to a the requested URL.
 
 ## not-found
 
