@@ -25,7 +25,7 @@ For example:
 
 ## Extensions
 
-Aside from the standardized properties above, the RFC7807 spec also allows for custom properties. The following extra properties are commonly used on publiq APIs to provide more information in specific situations.
+Aside from the standardized properties above, the RFC7807 spec also allows for custom properties. The following extra properties are sometimes used on publiq APIs to provide more information in specific situations.
 
 ### jsonPointer
 
