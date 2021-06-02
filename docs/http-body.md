@@ -26,7 +26,7 @@ Aside from the standardized properties above, the RFC7807 spec also allows for c
 
 ### jsonPointer
 
-In some cases error responses can include a `jsonPointer` property. This pointer indicates which specific JSON property inside the request body was invalid or caused a problem. It is especially helpful when one specific item inside a list caused an issue, because you can then ask your end user to correct it or leave it out.
+In some cases error responses can include a `jsonPointer` property that conforms to the [RFC6901](https://datatracker.ietf.org/doc/html/rfc6901) standard. This pointer indicates which specific JSON property inside the request body was invalid or caused a problem. It is especially helpful when one specific item inside a list caused an issue, because you can then ask your end user to correct it or leave it out.
 
 For example given the following JSON body in the request:
 
