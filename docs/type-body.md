@@ -26,4 +26,4 @@ The body you included (typically JSON) has an invalid syntax and cannot be parse
 -   **Title**: `Invalid body data`
 -   **Status**: `400`
 
-The body you included (typically JSON) has invalid or missing properties. The problem detail should contain more info about what property specifically, and in some cases a [jsonPointer](./http-body.md#jsonPointer) may be included.
+The body you included (typically JSON) has invalid or missing properties. The response should also either include a `detail` with more info about the validation error, or a [schemaErrors](./http-body.md#schemaErrors) property with a list of one or more schema validation problems.
