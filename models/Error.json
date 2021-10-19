@@ -5,7 +5,7 @@
   "properties": {
     "type": {
       "type": "string",
-      "description": "A URI reference that identifies the problem type."
+      "description": "A URI reference that identifies the problem type. Can be used to recognize specific errors in your application code by comparing the complete URI."
     },
     "title": {
       "type": "string",
