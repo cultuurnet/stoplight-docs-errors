@@ -7,25 +7,6 @@
     },
     {
       "type": "divider",
-      "title": "HTTP response"
-    },
-    {
-      "type": "item",
-      "title": "Status",
-      "uri": "docs/http-status.md"
-    },
-    {
-      "type": "item",
-      "title": "Content-Type",
-      "uri": "docs/http-content-type.md"
-    },
-    {
-      "type": "item",
-      "title": "Body",
-      "uri": "docs/http-body.md"
-    },
-    {
-      "type": "divider",
       "title": "Error types"
     },
     {
