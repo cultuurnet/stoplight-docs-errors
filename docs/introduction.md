@@ -73,8 +73,8 @@ For example:
   "status": "400",
   "schemaErrors": [
     {
-      "jsonPointer": "/tariffId",
-      "error": "Required property (tariffId) missing."
+      "jsonPointer": "/",
+      "error": "Required property \"tariffId\" missing."
     },
     {
       "jsonPointer": "/numberOfTickets",
