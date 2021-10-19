@@ -53,4 +53,10 @@ The value of a given path parameter (variable parts of a URL) is invalid. More i
 
 <!-- theme: warning -->
 
-> Future usage of this error type on new APIs or new API endpoint is discouraged, because it means that part of the URL path actually contains data that has to be validated which breaks the concept that the URL is just an identifier for a resource that is either found or not. Instead the data should be passed as query parameters or as JSON in the request body. However older endpoints can still return this for historical reasons if they expect the data to be part of the URL path.
+> **Note to API designers**
+>
+> This error implies that part of the URL path actually contains data that has to be validated, which breaks the concept that the URL is just an identifier for a resource that is either found or not.
+>
+> Usage of URL paths that contain data that has to validated is discouraged in new APIs or new API endpoints. Instead the data should be passed as query parameters or as JSON in the request body. 
+>
+> This error type should thus only be used on historical endpoints that still expect data as part of the URL path.
