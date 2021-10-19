@@ -11,7 +11,7 @@
     },
     {
       "type": "item",
-      "title": "In request URLs",
+      "title": "In request URL",
       "uri": "docs/type-url.md"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "type": "item",
-      "title": "In request bodies",
+      "title": "In request body",
       "uri": "docs/type-body.md"
     }
   ]
