@@ -56,7 +56,7 @@ For example:
 
 Aside from the standardized properties above, the RFC7807 spec also allows for custom properties. The following extra properties are sometimes used on publiq APIs to provide more information in specific situations.
 
-##### schemaErrors extension
+##### schemaErrors
 
 In the case of validation of JSON bodies in requests, error responses can include multiple validation errors at the same time in a `schemaErrors` property. 
 
