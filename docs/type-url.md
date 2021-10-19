@@ -42,3 +42,15 @@ The value of a given query parameter is invalid. More info on what parameter spe
 Also used when a query parameter references another resource and that resource is not found.
 
 In some cases, depending on the API, this can also be returned when an invalid parameter name is used.
+
+## path-parameter-invalid
+
+-   **Type:** `https://api.publiq.be/probs/url/path-parameter-invalid`
+-   **Title**: `Path parameter invalid`
+-   **Status**: `400`
+
+The value of a given path parameter (variable parts of a URL) is invalid. More info on what parameter specifically can be found in the `detail` property of the response.
+
+<!-- theme: warning -->
+
+> Future usage of this error type on new APIs or new API endpoint is discouraged, because it means that part of the URL path actually contains data that has to be validated which breaks the concept that the URL is just an identifier for a resource that is either found or not. Instead the data should be passed as query parameters or as JSON in the request body. However older endpoints can still return this for historical reasons if they expect the data to be part of the URL path.
