@@ -7,40 +7,21 @@
     },
     {
       "type": "divider",
-      "title": "HTTP response"
-    },
-    {
-      "type": "item",
-      "title": "Status",
-      "uri": "docs/http-status.md"
-    },
-    {
-      "type": "item",
-      "title": "Content-Type",
-      "uri": "docs/http-content-type.md"
-    },
-    {
-      "type": "item",
-      "title": "Body",
-      "uri": "docs/http-body.md"
-    },
-    {
-      "type": "divider",
       "title": "Error types"
     },
     {
       "type": "item",
-      "title": "URL",
+      "title": "In request URL",
       "uri": "docs/type-url.md"
     },
     {
       "type": "item",
-      "title": "Header",
+      "title": "In request headers",
       "uri": "docs/type-header.md"
     },
     {
       "type": "item",
-      "title": "Body",
+      "title": "In request body",
       "uri": "docs/type-body.md"
     }
   ]

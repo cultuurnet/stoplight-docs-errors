@@ -5,7 +5,7 @@
   "properties": {
     "type": {
       "type": "string",
-      "description": "A URI reference that identifies the problem type."
+      "description": "A URI reference that identifies the problem type. Can be used to recognize specific errors in your application code by comparing the complete URI."
     },
     "title": {
       "type": "string",
@@ -46,5 +46,24 @@
     "type",
     "title",
     "status"
+  ],
+  "examples": [
+    {
+      "type": "https://api.publiq.be/probs/body/invalid-data",
+      "title": "Invalid body data",
+      "status": 400,
+      "schemaErrors": [
+        {
+          "jsonPointer": "/foo",
+          "error": "Missing required property \"bar\"."
+        }
+      ]
+    },
+    {
+      "type": "https://api.publiq.be/probs/url/query-parameter-invalid",
+      "title": "Query parameter invalid",
+      "status": 400,
+      "detail": "Query parameter \"foo\" should be at least 2 characters long."
+    }
   ]
 }

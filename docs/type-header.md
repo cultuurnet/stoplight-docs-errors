@@ -2,7 +2,7 @@
 
 This page contains an overview of all possible error types inside the `https://api.publiq.be/probs/header/` namespace that can be returned by publiq's APIs.
 
-> APIs can also use their own types for errors. The types below are used in situations where an API has no more specific type for an error related to a header.
+> APIs can also use their own types for errors. The types below are used in situations where an API has no specific type for an error related to a header.
 
 ## missing
 

@@ -2,7 +2,7 @@
 
 This page contains an overview of all possible error types inside the `https://api.publiq.be/probs/body/` namespace that can be returned by publiq's APIs.
 
-> APIs can also use their own types for errors. The types below are used in situations where an API has no more specific type for an error related to a the body included in a request.
+> APIs can also use their own types for errors. The types below are used in situations where an API has no specific type for an error related to the body included in a request.
 
 ## missing
 
@@ -26,4 +26,4 @@ The body you included (typically JSON) has an invalid syntax and cannot be parse
 -   **Title**: `Invalid body data`
 -   **Status**: `400`
 
-The body you included (typically JSON) has invalid or missing properties. The response should also either include a `detail` with more info about the validation error, or a [schemaErrors](./http-body.md#schemaErrors) property with a list of one or more schema validation problems.
+The body you included (typically JSON) has invalid or missing properties. The response should also either include a `detail` with more info about the validation error, or a [schemaErrors](./introduction.md#schemaErrors) property with a list of one or more schema validation problems.
