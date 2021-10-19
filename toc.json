@@ -11,17 +11,17 @@
     },
     {
       "type": "item",
-      "title": "URL",
+      "title": "In request URLs",
       "uri": "docs/type-url.md"
     },
     {
       "type": "item",
-      "title": "Header",
+      "title": "In request headers",
       "uri": "docs/type-header.md"
     },
     {
       "type": "item",
-      "title": "Body",
+      "title": "In request bodies",
       "uri": "docs/type-body.md"
     }
   ]
