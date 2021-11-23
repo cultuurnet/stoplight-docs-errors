@@ -46,24 +46,5 @@
     "type",
     "title",
     "status"
-  ],
-  "examples": [
-    {
-      "type": "https://api.publiq.be/probs/body/invalid-data",
-      "title": "Invalid body data",
-      "status": 400,
-      "schemaErrors": [
-        {
-          "jsonPointer": "/foo",
-          "error": "Missing required property \"bar\"."
-        }
-      ]
-    },
-    {
-      "type": "https://api.publiq.be/probs/url/query-parameter-invalid",
-      "title": "Query parameter invalid",
-      "status": 400,
-      "detail": "Query parameter \"foo\" should be at least 2 characters long."
-    }
   ]
 }
