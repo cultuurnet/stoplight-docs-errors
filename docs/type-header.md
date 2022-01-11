@@ -19,3 +19,17 @@ A required header is missing. More info on what header specifically can be found
 -   **Status**: `400`
 
 The value of a given header is invalid. More info on what header specifically can be found in the `detail` property of the response.
+
+## not-acceptable
+
+-   **Type:** `https://api.publiq.be/probs/header/not-acceptable`
+-   **Title**: `Not Acceptable`
+-   **Status**: `406`
+
+This error is returned if the request to the API included an `Accept` header with a content-type that the API does not support, and the API is unwilling or unable to return a default content-type instead.
+
+For example, you might be doing a request with `Accept: application/xml` while the API does not support XML and does not want to return a default format like JSON instead. In this case the API will return this error.
+
+To fix this error, do not use an `Accept` header in your requests or set it to a content-type that the API supports (most often `application/json` and/or `application/json+ld`).
+
+For more info, see https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406
