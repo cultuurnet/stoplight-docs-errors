@@ -58,9 +58,9 @@ Aside from the standardized properties above, the RFC7807 spec also allows for c
 
 ##### schemaErrors
 
-In the case of validation of JSON bodies in requests, error responses can include multiple validation errors at the same time in a `schemaErrors` property. 
+In the case of validation of JSON bodies in requests, error responses can include multiple validation errors at the same time in a `schemaErrors` property.
 
-This property will contain a list with objects that have a `jsonPointer` that conforms to the [RFC6901](https://datatracker.ietf.org/doc/html/rfc6901) standard. This pointer indicates which specific JSON property inside the request body was invalid or caused a problem. 
+This property will contain a list with objects that have a `jsonPointer` that conforms to the [RFC6901](https://datatracker.ietf.org/doc/html/rfc6901) standard. This pointer indicates which specific JSON property inside the request body was invalid or caused a problem.
 
 The objects also contain an `error` property with a human-readable (but often technical) explanation of why that specific part of the given JSON is invalid.
 
