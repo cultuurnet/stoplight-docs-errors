@@ -27,7 +27,7 @@ The URL you requested exists, but the method you are trying to use is not suppor
 
 -   **Type:** `https://api.publiq.be/probs/url/query-parameter-missing`
 -   **Title**: `Query parameter missing`
--   **Status**: `400`
+-   **Status**: `404`
 
 A required query parameter is missing. More info on what parameter specifically can be found in the `detail` property of the response.
 
@@ -35,7 +35,7 @@ A required query parameter is missing. More info on what parameter specifically 
 
 -   **Type:** `https://api.publiq.be/probs/url/query-parameter-invalid`
 -   **Title**: `Query parameter invalid`
--   **Status**: `400`
+-   **Status**: `404`
 
 The value of a given query parameter is invalid. More info on what parameter specifically can be found in the `detail` property of the response.
 
@@ -47,7 +47,7 @@ In some cases, depending on the API, this can also be returned when an invalid p
 
 -   **Type:** `https://api.publiq.be/probs/url/path-parameter-invalid`
 -   **Title**: `Path parameter invalid`
--   **Status**: `400`
+-   **Status**: `404`
 
 The value of a given path parameter (variable parts of a URL) is invalid. More info on what parameter specifically can be found in the `detail` property of the response.
 
