@@ -28,8 +28,22 @@ The value of a given header is invalid. More info on what header specifically ca
 
 This error is returned if the request to the API included an `Accept` header with a content-type that the API does not support, and the API is unwilling or unable to return a default content-type instead.
 
-For example, you might be doing a request with `Accept: application/xml` while the API does not support XML and does not want to return a default format like JSON instead. In this case the API will return this error.
+For example, you might be sending a request with `Accept: application/xml` while the API does not support XML and does not want to return a default format like JSON instead. In this case the API will return this error.
 
 To fix this error, do not use an `Accept` header in your requests or set it to a content-type that the API supports (most often `application/json` and/or `application/json+ld`).
 
 For more info, see https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406
+
+## unsupported-media-type
+
+-   **Type:** `https://api.publiq.be/probs/header/unsupported-media-type`
+-   **Title**: `Unsupported Media Type`
+-   **Status**: `415`
+
+This error is returned if the request to the API included a `Content-Type` header with a value that the API does not support.
+
+For example, you might be sending a request with `Content-Type: application/xml` while the API does not support XML.
+
+To fix this error, use a `Content-Type` (and a request body in that format) that is supported by the API.
+
+For more info, see https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/415
