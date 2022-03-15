@@ -16,7 +16,7 @@ A required header is missing. More info on what header specifically can be found
 
 > **Note to API designers**
 >
-> APIs should only use this error type if a more specific type is not available. For example, `https://api.publiq.be/probs/auth/unauthorized` can be used if the `Authorization` header is missing.
+> APIs should only use this error type if a more specific type is not available. For example, `https://api.publiq.be/probs/auth/unauthorized` must be used if the `Authorization` header is missing.
 
 ## invalid
 
@@ -30,7 +30,7 @@ The value of a given header is invalid. More info on what header specifically ca
 
 > **Note to API designers**
 >
-> APIs should only use this error type if a more specific type is not available. For example, `https://api.publiq.be/probs/auth/unauthorized` can be used if the `Authorization` header is invalid.
+> APIs should only use this error type if a more specific type is not available. For example, `https://api.publiq.be/probs/auth/unauthorized` must be used if the `Authorization` header is invalid.
 
 ## not-acceptable
 
