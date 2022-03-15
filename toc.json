@@ -11,6 +11,11 @@
     },
     {
       "type": "item",
+      "title": "In request method",
+      "uri": "docs/type-method.md"
+    },
+    {
+      "type": "item",
       "title": "In request URL",
       "uri": "docs/type-url.md"
     },

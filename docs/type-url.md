@@ -15,14 +15,6 @@ The URL you requested is not available. Possible causes include:
 -   The endpoint does not exist
 -   An id or slug of a resource in the path does not exist or is invalid
 
-## method-not-allowed
-
--   **Type:** `https://api.publiq.be/probs/url/method-not-allowed`
--   **Title**: `Method not allowed`
--   **Status**: `405`
-
-The URL you requested exists, but the method you are trying to use is not supported. For example the endpoint may support `GET` but not `PUT`. The `detail` should contain the supported methods on the requested URL.
-
 ## query-parameter-missing
 
 -   **Type:** `https://api.publiq.be/probs/url/query-parameter-missing`
