@@ -12,7 +12,11 @@ This page contains an overview of all possible error types inside the `https://a
 
 A required header is missing. More info on what header specifically can be found in the `detail` property of the response.
 
-Note: APIs should only use this error type if a more specific type is not available. For example, `https://api.publiq.be/probs/auth/unauthorized` can be used if the `Authorization` header is missing.
+<!-- theme: warning -->
+
+> **Note to API designers**
+>
+> APIs should only use this error type if a more specific type is not available. For example, `https://api.publiq.be/probs/auth/unauthorized` can be used if the `Authorization` header is missing.
 
 ## invalid
 
@@ -22,7 +26,11 @@ Note: APIs should only use this error type if a more specific type is not availa
 
 The value of a given header is invalid. More info on what header specifically can be found in the `detail` property of the response.
 
-Note: APIs should only use this error type if a more specific type is not available. For example, `https://api.publiq.be/probs/auth/unauthorized` can be used if the `Authorization` header is invalid.
+<!-- theme: warning -->
+
+> **Note to API designers**
+>
+> APIs should only use this error type if a more specific type is not available. For example, `https://api.publiq.be/probs/auth/unauthorized` can be used if the `Authorization` header is invalid.
 
 ## not-acceptable
 
